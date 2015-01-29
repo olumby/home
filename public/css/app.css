@@ -12,6 +12,9 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
   background: #fefefe;
   padding: 10px;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
 }
 h1,
 h2,
