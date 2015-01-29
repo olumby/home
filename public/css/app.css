@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+body {
+  font-size: 62%;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  background: #fefefe;
+  padding: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  font-weight: 100;
+}
+h1 {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+p.links,
+p.talk {
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+p.links a,
+p.talk a {
+  color: #050505;
+  text-decoration: none;
+  border-bottom: 1px solid #050505;
+  padding: 2px;
+  margin: 0 3px;
+  -webkit-transition: color 1s, border-bottom 1s;
+  transition: all 0.3s;
+}
+p.links a:hover,
+p.talk a:hover {
+  color: #2196f3;
+  border-color: #2196f3;
+}
